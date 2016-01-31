@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/huitu.css">
+    <script src="./js/huitu.js"></script>
+    <script src="./js/jQuery.js"></script>
+    <script src="./js/shape.js"></script>
+</head>
+<body>
+<div class="container">
+    <ul class="tools">
+            <li class="f-menu f">
+                <div>文件</div>
+                <ul class="s-menu">
+                    <li class="file">新建</li>
+                    <li class="history">退格</li>
+                    <li class="save">保存</li>
+                </ul>
+            </li>
+            <li class="f-menu f">
+                <div>画图</div>
+                <ul class="s-menu">
+                    <li data-role="line">线</li>
+                    <li data-role="pen">铅笔</li>
+                    <li data-role="rect">矩形</li>
+                    <li data-role="arc">圆</li>
+                    <li data-role="five">星形</li>
+                    <!--<li data-role="line">梯形</li>-->
+                </ul>
+            </li>
+            <li class="f-menu f">
+                <div  class="f-btn">类型</div>
+                <ul class="s-menu">
+                    <li data-role="fill">填充</li>
+                    <li data-role="stroke">描边</li>
+                </ul>
+            </li>
+            <li class="f-menu f">
+                <div title="描边颜色" class="borderColor"><input type="color"></div>
+
+            </li>
+            <li class="f-menu f">
+                <div title="填充颜色" class="fillColor"><input type="color"></div>
+            </li>
+            <li class="f-menu f">
+                <div>线条粗细</div>
+                <ul class="s-menu">
+                    <li linewidth=1>细</li>
+                    <li linewidth=10>粗</li>
+                </ul>
+            </li>
+            <li class="f-menu f eraser-size">
+                <div>橡皮擦</div>
+                <ul class="s-menu">
+                    <li data-role="32px">大</li>
+                    <li data-role="16px">中</li>
+                    <li data-role="8px">小</li>
+                </ul>
+            </li>
+            <li class="f-menu f">
+                <div class="select">选择</div>
+            </li>
+            <li class="f-menu f">
+                <div>更多工具</div>
+                <ul class="s-menu hbbj">
+                    <li data-role="002.jpg"></li>
+                    <li data-role="007.jpg"></li>
+                    <li data-role="22.jpg"></li>
+                    <li data-role="76.jpg"></li>
+                    <li data-role="95.jpg"></li>
+                    <li data-role="96.jpg"></li>
+                    <li data-role="100.jpg"></li>
+                    <li data-role="101.jpg"></li>
+                </ul>
+            </li>
+    </ul>
+    <div class="box">
+        <div class="copy"></div>
+        <canvas></canvas>
+        <div class="eraser"></div>
+        <div class="selected"></div>
+    </div>
+</div>
+</body>
+</html>

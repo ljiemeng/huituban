@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    background: url(../images/137-140514154257-51.jpg) no-repeat ;
+    background-position: 0 -200px;
+    background-size: cover;
+}
+li,ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.container{
+    width:800px;
+    height: 650px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background:#ccc;
+    margin: 10px 0 0 100px;
+}
+.tools{
+    width: 148px;
+    float: left;
+}
+.box{
+    width:650px;
+    height:100%;
+    background: #fff;
+    float: left;
+    border-left: 1px solid #aaaaaa;
+    position: relative;
+}
+.f-menu{
+    border-bottom: 1px solid #ccc;
+}
+.f-menu div{
+    font-size:16px;
+    padding: 5px 10px 5px 20px;
+    /*border: 1px solid red;*/
+    background: darkkhaki;
+}
+.s-menu{
+    /*padding:5px 0 5px 50px;*/
+    display: none;
+}
+.s-menu li{
+    /*width: 100px;*/
+    color: #666666;
+    text-align: center;
+    line-height: 24px;
+    border-bottom: 1px solid #aaaaaa;
+}
+.s-menu li:hover{
+    color: #202020;
+    background: #aaaaaa;
+}
+.copy{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:1;
+    width:100%;
+    height:100%;
+}
+.box canvas{
+    position:absolute;
+    left:0;
+    top:0;
+    background:url("../images/100.jpg");
+    background-size: cover;
+}
+.eraser{
+    border: 1px solid #333333;
+    position: absolute;
+}
+.selected{
+    border: 1px dotted #666666;
+    position: absolute;
+}
+.hbbj li{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: 2px solid black;
+    float: left;
+}
+.hbbj li:nth-child(1){
+    background: url("../images/002.jpg") ;
+    background-size: cover;
+}
+.hbbj li:nth-child(2){
+    background: url("../images/007.jpg") ;
+    background-size: cover;
+}
+.hbbj li:nth-child(3){
+    background: url("../images/22.jpg") ;
+    background-size: cover;
+}
+.hbbj li:nth-child(4){
+    background: url("../images/76.jpg") ;
+    background-size: cover;
+}
+.hbbj li:nth-child(5){
+    background: url("../images/95.jpg") ;
+    background-size: cover;
+}
+.hbbj li:nth-child(6){
+    background: url("../images/96.jpg") ;
+    background-size: cover;
+}.hbbj li:nth-child(7){
+     background: url("../images/100.jpg") ;
+     background-size: cover;
+ }
+.hbbj li:nth-child(8){
+    background: url("../images/101.jpg") ;
+    background-size: cover;
+}
+
+
